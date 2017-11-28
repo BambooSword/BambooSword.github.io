@@ -1,17 +1,17 @@
 # Site settings
-title: BY Blog
-SEOTitle: 竹剑的博客 | BY Blog
+title:  ZJ Blog
+SEOTitle: 竹剑的博客 | ZJ Blog
 header-img: img/post-bg-desk.jpg
 email: herodreamdeng@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 竹剑的博客, 邱柏荧, Web, Front-end, JavaScript"
+description: "Talk is cheap, show me your code."
+keyword: "竹剑的博客, Web, Front-end, JavaScript"
 url: "https://power-deng.github.io./"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Power-Deng/Power-Deng.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "Nothing is true, everything is permitted."
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -68,11 +68,11 @@ kramdown:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: 
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto
 
 
 
