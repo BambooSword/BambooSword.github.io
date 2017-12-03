@@ -34,13 +34,13 @@
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
-description: "Cool Blog"    # 随便说点，描述一下
+title: 竹剑的杂货铺            # 你的博客网站标题
+SEOTitle: 竹剑的杂货铺			# 在后面会详细谈到
+description: "竹剑的杂货铺"    # 随便说点，描述一下
 
 # SNS settings      
-github_username: huxpro     # 你的github账号
-weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。
+github_username: github     # 你的github账号
+weibo_username: weibo      # 你的微博账号，底部链接会自动更新的。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -57,15 +57,16 @@ yaml 头文件长这样:
 ```
 ---
 layout:     post
-title:      定时器 你真的会使用吗？
-subtitle:   iOS定时器详解
-date:       2016-12-13
-author:     BY
+title:      初见 Koa 2
+subtitle:   Koa框架学习笔记
+date:       2017-12-03
+author:     竹剑
 header-img: img/post-bg-ios9-web.jpg
 catalog: 	 true
 tags:
-    - iOS
-    - 定时器
+    - Node
+    - JS
+    - koa
 ---
 
 ```
@@ -108,7 +109,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 
 ### Social-media Account
 
-在下面输入的社交账号，没有的添加的不会显示在侧边框中。新加入了[简书](https:/www.jianshu.com)链接, <http://www.jianshu.com/u/e71990ada2fd>
+在下面输入的社交账号，没有的添加的不会显示在侧边框中。新加入了[简书](https://www.jianshu.com)链接, <http://www.jianshu.com/u/bd21ed6ee815>
 
 	# SNS settings
 	RSS: false
@@ -132,8 +133,8 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 # Friends
 friends: [
     {
-        title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        title: "竹剑的杂货铺",
+        href: "http://lmjingren.com/"
     },
     {
         title: "Apple",
@@ -221,7 +222,7 @@ JavaScript 的压缩混淆、Less 的编译、Apache 2.0 许可通告的添加�
 
 ### SEO Title
 
-我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“柏荧的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
+我的博客标题是 **“竹剑的杂货铺”** 但是我想要在搜索的时候显示 **“竹剑的杂货铺 | BambooSword Blog”** ，这个就需要 SEO Title 来定义了。
 
 其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
